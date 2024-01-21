@@ -1,7 +1,7 @@
 import subprocess
 
 # Caminho para o script de treinamento
-train_script = "C:\\Users\\User\\Desktop\\FACULDADE\\REGES\\python\\caminhao\\yolov5\\train.py"
+train_script = "C:\\Users\\User\\Desktop\\FACULDADE\\REGES\\python\\Reconhecimento-placa-e-caminhao\\yolov5\\train.py"
 
 # Executar o treinamento
 subprocess.run([
@@ -9,8 +9,8 @@ subprocess.run([
     "--img", "640",
     "--batch", "16",
     "--epochs", "50",
-    "--data", "C:\\Users\\User\\Desktop\\FACULDADE\\REGES\\python\\caminhao\\dataset\\CaminhaoPlaca.yaml",
-    "--weights", "C:\\Users\\User\\Desktop\\FACULDADE\\REGES\\python\\caminhao\\yolov5s.pt",
+    "--data", "C:\\Users\\User\\Desktop\\FACULDADE\\REGES\\python\\Reconhecimento-placa-e-caminhao\\dataset\\CaminhaoPlaca.yaml",
+    "--weights", "C:\\Users\\User\\Desktop\\FACULDADE\\REGES\\python\\Reconhecimento-placa-e-caminhao\\yolov5s.pt",
     "--cache"
 ])
 
